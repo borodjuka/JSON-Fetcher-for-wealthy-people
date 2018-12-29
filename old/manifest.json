@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fetch JSON",
+  "description": "This extension fetches JSON data from specific page.",
+  "version": "1.0",
+  "icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png",
+    "16": "icons/icon16.png"
+  },
+
+  "page_action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "popup.html",
+    "default_title": "Fetch JSON"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://app.meinpflegedienst.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "permissions": ["tabs", "https://app.meinpflegedienst.com/*"]
+}

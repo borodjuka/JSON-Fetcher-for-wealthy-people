@@ -1,0 +1,45 @@
+[
+	{
+		"ime": "Boris",
+		"prezime": "Djukic",
+
+		"prisutnost": [
+			{
+				"date": 20,
+				"dateName": "Po",
+				"prisutan": false
+			},
+			{
+				"date": 21,
+				"dateName": "Ut",
+				"prisutan": false
+			},
+			{
+				"date": 22,
+				"dateName": "Sr",
+				"prisutan": false
+			}
+		]
+	},
+	{
+		"ime": "Milica",
+		"prezime": "Maijkovic",
+		"prisutnost": [
+			{
+				"date": 20,
+				"dateName": "Po",
+				"prisutan": false
+			},
+			{
+				"date": 21,
+				"dateName": "Ut",
+				"prisutan": false
+			},
+			{
+				"date": 22,
+				"dateName": "Sr",
+				"prisutan": false
+			}
+		]
+	}
+]
